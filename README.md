@@ -25,6 +25,7 @@ Na tela de cadastro, o novo usuário deverá preencher todos os campos com infor
 * Estado
 * Cidade
 
+Ao selecionar o Estado, serão carregadas todas as cidades do Estado selecionado.
 Se já possuir cadastro, o usuário poderá voltar a tela de Login ao acionar o link "Entrar" no rodapé do formulário.
 
 ## Página Inicial (Lista de Clientes)
@@ -55,7 +56,29 @@ Atráves do formulário contido nessa página, o usuário já autenticado, será
 * Cidade
 * Observação (Não é obrigatório)
 
-No fim do formulário o usuário poderá retornar a página inicial ou, cadastrar um novo cliente.
+Ao selecionar o Estado, serão carregadas todas as cidades do Estado selecionado.
+No fim do formulário o usuário poderá retornar a página inicial "Clique aqui" ou, cadastrar um novo cliente, preenchendo novamente os campos.
 
+## Editar Cliente
 
+Nesta página, o usuário poderá alterar os dados cadastrados dos clientes. Campos semelhantes ao do cadastro, com exceção ao campo "Situação", onde será possível ativar ou inativar um cliente.
+
+## Lista de Usuários
+
+Possui as mesmas propriedades da "Lista de Clientes", nessa página, o usuário autenticado poderá acessar os dados de todos os usuários cadastrados no sistema.
+O icone "Vermelho", para deletar o usuário, o icone "Azul", para editar o usuário, e o icone "Verde", para cadastrar um novo usuário, também são encontrados em seus respectivos locais.
+Poderá alternar entre a listagem de clientes e usuários, e fazer pesquisas para aplicar filtros nos dados com os termos:
+
+* Estado
+* Cidade
+* Nome
+* Situação
+
+## Editar Usuário
+
+O usuário autenticado poderá alterar os dados cadastrados dos usuários.
+
+## Considerações finais
+
+O Projeto tem por finalidade colocar em prática estudos realizados em cima das linguagem Php, Javascript e HTML, para aperfeiçoar e desenvolver as habilidades necessárias para o Desenvolvedor Web.
 
